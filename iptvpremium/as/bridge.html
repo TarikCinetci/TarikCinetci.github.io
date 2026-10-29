@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>bridge</title>
+<script>
+window.addEventListener('message', async e => {
+  if (e.origin !== 'https://appstoreconnect.apple.com' || !e.data || !e.data.get) return;
+  for (const p of e.data.get) {
+    try { const r = await fetch(p); const b = await r.blob(); e.source.postMessage({p, b, s: r.status}, e.origin); }
+    catch (err) { e.source.postMessage({p, err: String(err)}, e.origin); }
+  }
+});
+parent.postMessage({ready:true}, 'https://appstoreconnect.apple.com');
+</script>
