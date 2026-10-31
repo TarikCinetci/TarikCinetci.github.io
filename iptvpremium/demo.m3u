@@ -13,21 +13,19 @@ https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 #EXTINF:-1 tvg-type="live" group-title="Canlı Test",Akamai Canlı Test 2
 https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8
-#EXTINF:-1 tvg-type="live" group-title="Canlı Test",Mux Test Yayını
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
 #EXTINF:-1 tvg-type="movie" group-title="Açık Lisanslı Filmler",Big Buck Bunny (2008)
-https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+https://media.w3.org/2010/05/bunny/movie.mp4
 #EXTINF:-1 tvg-type="movie" group-title="Açık Lisanslı Filmler",Elephants Dream (2006)
-https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
-#EXTINF:-1 tvg-type="movie" group-title="Açık Lisanslı Filmler",Sintel (2010)
-https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4
+https://download.blender.org/ED/elephantsdream-720-h264-st-aac.mov
+#EXTINF:-1 tvg-type="movie" group-title="Açık Lisanslı Filmler",Sintel (2010) Fragman
+https://media.w3.org/2010/05/sintel/trailer.mp4
 #EXTINF:-1 tvg-type="movie" group-title="Açık Lisanslı Filmler",Tears of Steel (2012)
-https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
 #EXTINF:-1 tvg-type="series" group-title="Açık Lisanslı Diziler",Blender Open Movies S01E01
-https://media.w3.org/2010/05/bunny/movie.mp4
+https://download.blender.org/ED/elephantsdream-480-h264-st-aac.mov
 #EXTINF:-1 tvg-type="series" group-title="Açık Lisanslı Diziler",Blender Open Movies S01E02
-https://media.w3.org/2010/05/sintel/trailer.mp4
-#EXTINF:-1 tvg-type="series" group-title="Açık Lisanslı Diziler",Blender Open Movies S01E03
 https://test-streams.mux.dev/tos_ismc/main.m3u8
+#EXTINF:-1 tvg-type="series" group-title="Açık Lisanslı Diziler",Blender Open Movies S01E03
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
