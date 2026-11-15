@@ -70,4 +70,12 @@ footer { margin-top: 48px; font-size: 13px; color: var(--muted); text-align: cen
   header { flex-wrap: wrap; }
   nav { margin-left: 0; width: 100%; }
 }
+.notice {
+  margin: 0 0 36px; border: 1.5px solid var(--accent);
+  background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--card);
+}
+.notice h2 { margin: 0 0 8px; font-size: 19px; color: var(--accent); }
+.notice h2 + ul { margin-top: 0; }
+.notice ul + h2 { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+.notice li { font-size: 15px; }
 .lang { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--border); }
